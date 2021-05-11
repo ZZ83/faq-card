@@ -36,9 +36,6 @@ button {
 	border: none;
 	
 }
-svg {
-	transition: all .2s ease-in-out;
-}
 
 svg:hover {
 	cursor: pointer;
@@ -99,6 +96,9 @@ svg:hover {
 			align-items: center;
 			justify-content: space-between;
 			padding: 4px 0;
+		}
+		.faq__icon {
+			transition: all .2s ease-in-out;
 		}
 		p {
 			font-size: 0.772rem;
